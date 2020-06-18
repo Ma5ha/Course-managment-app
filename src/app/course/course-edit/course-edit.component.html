@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="card">
+    <form *ngIf="courseForm" [formGroup]="courseForm">
+
+      <div class="card-header">
+        <div class="form-group">
+          <input type="text" class="form-control" formControlName="name" />
+          <span class="text-danger" *ngIf="nameField.touched && nameField.errors?.required">
+            Name is required
+          </span>
+        </div>
+      </div>
+
+      <div class="card-body">
+
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label>Description: </label>
+              <textarea type="text" class="form-control" formControlName="description"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="teacher">Teacher: </label>
+          <ng-select *ngIf="teachers?.length" [items]="teachers" labelForId="teacher" bindLabel="name"
+            formControlName="teacher">
+
+          </ng-select>
+        </div>
+
+        <div class="form-group">
+          <label for="students">Students: </label>
+          <ng-select *ngIf="students?.length" [items]="students" bindLabel="name" labelForId="students"
+            clearAllText="Clear" [multiple]="true" formControlName="students">
+          </ng-select>
+        </div>
+
+      </div>
+
+      <div class="card-footer">
+        <div class="row justify-content-between">
+          <button class="btn btn-light" (click)="goBack()">
+            Back
+          </button>
+          <button class="btn btn-primary" (click)="save()">
+            Save
+          </button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>

@@ -1,0 +1,145 @@
+<div class="container">
+  <div class="card">
+    
+    <div class="card-header">
+      <h4 class="text-center">{{ course?.name }}</h4>
+    </div>
+
+    <div class="card-body">
+
+      <div class="row">
+        <div class="col">
+          <p class="font-weight-light">Description:</p>
+          <p class="lead font-italic">
+            {{ course?.description}}
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="font-weight-light">Start Date:</p>
+          <p class="lead font-italic">
+            {{ startDateFormatted }}
+          </p>
+        </div>
+        <div class="col">
+          <p class="font-weight-light">End Date:</p>
+          <p class="lead font-italic">
+            {{ endDateFormatted }}
+          </p>
+        </div>
+        <div class="col">
+          <p class="font-weight-light">City:</p>
+          <p class="lead font-italic">
+            {{ course?.city}}
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <p class="font-weight-light">Students:</p>
+          <ng-container *ngIf="course?.students; else noStudentsTemplate">
+            <p class="lead font-italic" *ngFor="let student of course.students"> {{ student.name }}</p>
+          </ng-container>
+          <ng-template #noStudentsTemplate>
+            <p class="lead font-italic"> No students yet. </p>
+          </ng-template>
+        </div>
+
+        <div class="col">
+          <p class="font-weight-light">Teacher:</p>
+          <ng-container *ngIf="course?.teacher; else noTeacherTemplate">
+            <p class="lead font-italic"> {{ course.teacher.name }} </p>
+            
+          </ng-container>
+          <ng-template #noTeacherTemplate>
+            <p class="lead font-italic">The teacher is not assigned yet. </p>
+          </ng-template>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="card-footer">
+      <div class="row">
+        <div class="col">
+          <button class="btn btn-light" (click)="goBack()">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+ <!-- <div class="row">
+    <h4>{{ course.name }}</h4>
+  </div>
+  
+
+  <div class="row">
+    <p class="font-weight-light">Description:</p>
+    <p>Description: </p>
+  </div>
+  <div class="row">
+    <p class="lead">
+      {{ course.description}}
+    </p>
+  </div>
+  
+  
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-3">Name:</div>
+          <div class="col-md-6">{{ course.name }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">Description:</div>
+          <div class="col-md-6">{{ course.description }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">City:</div>
+          <div class="col-md-6">{{ course.city }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">Teachers:</div>
+          <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">Students:</div>
+          <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">Start Date:</div>
+          <div class="col-md-6">
+            {{ course.startDate.day }}/{{ course.startDate.month }}/{{
+              course.startDate.year
+            }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">End Date:</div>
+          <div class="col-md-6">
+            {{ course.endDate.day }}/{{ course.endDate.month }}/{{
+              course.endDate.year
+            }}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <button class="btn btn-light" [routerLink]="['/home']">
+          Back
+        </button>
+      </div>
+    </div>
+  </div> -->

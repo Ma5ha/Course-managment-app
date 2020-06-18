@@ -1,0 +1,30 @@
+<div class="container-fluid pt-2">
+  <cm-common-header title="Students" (onAddClick)="addStudent()"></cm-common-header>
+
+  <div class="row pt-5">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col" class="pull-right action-column">Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let student of students; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ student.firstName }} {{ student.lastName}}</td>
+        <td class="pull-right action-column">
+          <button class="btn btn-info btn-sm mr-1" type="button" (click)="editStudent(student)">
+            Edit
+          </button>
+
+          <button class="btn btn-danger btn-sm" type="button" (click)="deleteStudent(student)">
+            Delete
+          </button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
