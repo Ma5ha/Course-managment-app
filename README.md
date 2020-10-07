@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.  Application allows you manage post and comments, by allowing full CRUD functionality.  Project is built with Angular, [Ng-Bootstrap](https://ng-bootstrap.github.io/#/home) and, as mockup data, [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
 
-In production application have limited behavior of action due to data being mo 
+In production application have limited behavior of action due to data being static and not changeable.   However, in development it allows full functionality. 
 
 ## Development server
 
@@ -29,5 +29,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ4NjU3NTAsNzA1MTg5NDA3XX0=
+eyJoaXN0b3J5IjpbLTExOTQ0NDMyMzcsNzA1MTg5NDA3XX0=
 -->
