@@ -13,9 +13,11 @@ To run this project locally first download it. After download install necessary 
 
 Once the project is set and ready, to  start server run `ng serve` and navigate to  `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To serve data open new console in run n
+To serve data open new console and run `npm run server`
 
+## Usage
+To login use username `admin` password: `admin`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTg3MDYyOCw3MDUxODk0MDddfQ==
+eyJoaXN0b3J5IjpbLTIzNjQwNTk2MCw3MDUxODk0MDddfQ==
 -->
