@@ -1,6 +1,8 @@
 # CourseManagement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.  Application allows you manage post and comments, by allowing full CRUD functionality.  Project is built with Angular, [Ng-Bootstrap](https://ng-bootstrap.github.io/#/home) and, as mockup data, [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.  Application allows you manage courses, by allowing full CRUD functionality.  You can add, edit, delete courses,also teachers and users. 
+
+ Project is built with Angular, [Ng-Bootstrap](https://ng-bootstrap.github.io/#/home) and, as mockup data, [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
 
 In production application have limited behavior of action due to data being static and not changeable.   However, in development it allows full functionality. 
@@ -19,5 +21,5 @@ To serve data open new console and run `npm run server`
 To login use username `admin` password: `admin`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjQwNTk2MCw3MDUxODk0MDddfQ==
+eyJoaXN0b3J5IjpbLTIwMDM3MDM1LDcwNTE4OTQwN119
 -->
