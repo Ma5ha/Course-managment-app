@@ -1,0 +1,195 @@
+{
+  "courses": [
+    {
+      "name": "Test course",
+      "description": "Test description",
+      "city": "Mostar",
+      "startDate": {
+        "year": 2020,
+        "month": 6,
+        "day": 11
+      },
+      "endDate": {
+        "year": 2020,
+        "month": 6,
+        "day": 20
+      },
+      "teacher": null,
+      "students": [
+        {
+          "id": 5,
+          "name": "Bordie Bellringer"
+        },
+        {
+          "id": 4,
+          "name": "Sheeree Proudlock"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "teachers": [
+    {
+      "firstName": "Cleo",
+      "lastName": "Vany",
+      "email": "cvany0@bing.com",
+      "gender": "Female",
+      "company": "Tagcat",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Haley",
+      "lastName": "Keems",
+      "email": "hkeems1@ed.gov",
+      "gender": "Female",
+      "company": "Dabvine"
+    },
+    {
+      "id": 3,
+      "firstName": "Rolph",
+      "lastName": "Esplin",
+      "email": "resplin2@oakley.com",
+      "gender": "Male",
+      "company": "Devbug"
+    },
+    {
+      "id": 4,
+      "firstName": "Prissie",
+      "lastName": "M'Quhan",
+      "email": "pmquhan3@pagesperso-orange.fr",
+      "gender": "Female",
+      "company": "DabZ"
+    },
+    {
+      "id": 5,
+      "firstName": "Waverley",
+      "lastName": "Kapelhof",
+      "email": "wkapelhof4@salon.com",
+      "gender": "Male",
+      "company": "Kwilith"
+    },
+    {
+      "id": 6,
+      "firstName": "Anastassia",
+      "lastName": "Laird-Craig",
+      "email": "alairdcraig5@state.gov",
+      "gender": "Female",
+      "company": "Jetwire"
+    },
+    {
+      "id": 7,
+      "firstName": "Meara",
+      "lastName": "Lorente",
+      "email": "mlorente6@smugmug.com",
+      "gender": "Female",
+      "company": "Cogilith"
+    },
+    {
+      "id": 8,
+      "firstName": "Clifford",
+      "lastName": "Masding",
+      "email": "cmasding7@miitbeian.gov.cn",
+      "gender": "Male",
+      "company": "Yabox"
+    },
+    {
+      "id": 9,
+      "firstName": "Bondy",
+      "lastName": "Winridge",
+      "email": "bwinridge8@51.la",
+      "gender": "Male",
+      "company": "Flashpoint"
+    },
+    {
+      "id": 10,
+      "firstName": "Clare",
+      "lastName": "Newcome",
+      "email": "cnewcome9@imageshack.us",
+      "gender": "Female",
+      "company": "Feednation"
+    }
+  ],
+  "students": [
+    {
+      "firstName": "Herta",
+      "lastName": "Riatt",
+      "email": "hriatt0@nature.com",
+      "gender": "Female",
+      "phoneNumber": "748-867-9240",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Alec",
+      "lastName": "Greswell",
+      "email": "agreswell1@livejournal.com",
+      "gender": "Male",
+      "phoneNumber": "386-795-7861"
+    },
+    {
+      "id": 3,
+      "firstName": "Klarika",
+      "lastName": "Jobke",
+      "email": "kjobke2@fda.gov",
+      "gender": "Female",
+      "phoneNumber": "370-126-1669"
+    },
+    {
+      "id": 4,
+      "firstName": "Sheeree",
+      "lastName": "Proudlock",
+      "email": "sproudlock3@psu.edu",
+      "gender": "Female",
+      "phoneNumber": "800-877-8769"
+    },
+    {
+      "id": 5,
+      "firstName": "Bordie",
+      "lastName": "Bellringer",
+      "email": "bbellringer4@123-reg.co.uk",
+      "gender": "Male",
+      "phoneNumber": "110-172-2161"
+    },
+    {
+      "id": 6,
+      "firstName": "Barby",
+      "lastName": "Oxton",
+      "email": "boxton5@godaddy.com",
+      "gender": "Female",
+      "phoneNumber": "842-864-2284"
+    },
+    {
+      "id": 7,
+      "firstName": "Joyan",
+      "lastName": "Giddens",
+      "email": "jgiddens6@elegantthemes.com",
+      "gender": "Female",
+      "phoneNumber": "202-753-7352"
+    },
+    {
+      "id": 8,
+      "firstName": "Noe",
+      "lastName": "Kelston",
+      "email": "nkelston7@usgs.gov",
+      "gender": "Male",
+      "phoneNumber": "477-417-3433"
+    },
+    {
+      "id": 9,
+      "firstName": "Antoni",
+      "lastName": "Vitler",
+      "email": "avitler8@ask.com",
+      "gender": "Male",
+      "phoneNumber": "693-134-9141"
+    },
+    {
+      "id": 10,
+      "firstName": "Jed",
+      "lastName": "Vincent",
+      "email": "jvincent9@usgs.gov",
+      "gender": "Male",
+      "phoneNumber": "856-821-7697"
+    }
+  ]
+}
